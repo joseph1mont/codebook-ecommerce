@@ -1,4 +1,4 @@
-![Cinemate Now Playing](src/assets/images/sc.jpg "Cinemate Now Playing")
+![Codebook](src/assets/images/sc.jpg "Codebook-courses store")
 
 JSON SERVER
 // npx json-server data/db.json
