@@ -1,5 +1,4 @@
 export async function getProductList(searchTerm) {
-  //   json-server documentation:   _like
   const response = await fetch(
     `${process.env.REACT_APP_HOST}/444/products?name_like=${
       searchTerm ? searchTerm : ""
