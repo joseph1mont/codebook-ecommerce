@@ -280,7 +280,7 @@
   "users": [
     {
       "email": "joseph1mont@gmail.com",
-      "password": "$2a$10$YLEPJ9Bcw5xAZMmAv3oeYOBjHGi7Tpeng80Hrpdn9ncc2gvhx29OG",
+      "password": "Guest!",
       "name": "Joseph Thomas",
       "id": 1
     }
