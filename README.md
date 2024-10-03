@@ -1,4 +1,4 @@
-E-Commerce web-application built with React, Tailwind CSS, JSON Server, JWTAuth, Context API and deployed on Netlify/Render
+E-Commerce web-application built with React, Tailwind CSS, JSON Server, JWTAuth, Context API and deployed on Netlify/Render, GIT(main,dev branches)
 
 this is a proper full fledged e-commerce project with search, with proper fake seperate backend
 
