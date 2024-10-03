@@ -1,44 +1,42 @@
-# Codebook - E-Commerce React Application
+E-Commerce web-application built with React, Tailwind CSS, JSON Server, JWTAuth, Context API and deployed on Netlify/Render, GIT(main,dev branches)
 
-### Live Demo:
+this is a proper full fledged e-commerce project with search, with proper fake seperate backend
 
-[Codebook Demo](https://codebook-sample-reactjs.netlify.app/)
+order history, proper login, proper registration, proper JWT, as well as your theme controller,
 
-## Overview:
+lot of stuff
 
-Codebook is a full-fledged e-commerce web application built using **React**, **Tailwind CSS**, **Context API**, **JSON Server**, **JWT Authentication**, and deployed on **Netlify** and **Render**. This project simulates a real-world e-commerce platform with features like search functionality, order history, authentication (registration and login), and theme switching.
+We can access the JSON server and JSON server Auth locally on port 8000, in 2 different ways
 
-### Key Features:
+1- start them on new bash:
+$
+npx json-server data/db.json -m ./node_modules/json-server-auth --port 8000
 
-- **JWT Authentication**: Secure login and registration using JSON Server Auth.
-- **Search Functionality**: Search products by name with partial matching.
-- **Order History**: Users can view past orders, providing a complete shopping experience.
-- **Theme Controller**: Supports light/dark mode switching.
-- **Fully Responsive**: Optimized for all screen sizes using Tailwind CSS.
-- **Modular Structure**: Clean and maintainable code following best practices.
+2- or, using "node" from backend project (codebook Mock Server) using:
+$
+npm start
 
----
+![Codebook](src/assets/images/sc.jpg "Codebook-courses store")
 
-## Backend:
+We use JSON Server and Json Server Auth to work with our data,
 
-The backend for this project is maintained in a separate repository: [Codebook Node Backend](https://github.com/yourusername/codebook-node-backend).
+- JSON SERVER
+  $
+  npx json-server data/db.json
 
-It handles the mock API using **JSON Server** and provides authentication with **JSON Server Auth**. For local testing, the backend server can be run separately.
+  // for search: fetch("...... products?name_like=react") in productList.js
+  https://github.com/typicode/json-server/
 
----
+- Json Server Auth
+  JWT Token
 
-## Local Development Setup:
+Json Server Auth
+https://github.com/jeremyben/json-server-auth
 
-To test the application locally, you'll need to run both the frontend and the mock backend.
+To test locally:
+$
+npx json-server data/db.json -m ./node_modules/json-server-auth --port 8000
 
-### JSON Server (Backend) Setup:
+# with json-server installed globally and json-server-auth installed locally
 
-You can either clone the backend repository or run the JSON Server locally as follows.
-
-1. **Run JSON Server with Auth** (Port 8000):
-
-   Open a new terminal and run the following command to start the JSON server with authentication:
-
-   ```bash
-   npx json-server data/db.json -m ./node_modules/json-server-auth --port 8000
-   ```
+We use react-toastify to display the Error msgs
