@@ -42,3 +42,7 @@ You can either clone the backend repository or run the JSON Server locally as fo
    ```bash
    npx json-server data/db.json -m ./node_modules/json-server-auth --port 8000
    ```
+
+### Screenshot:
+
+![Codebook](src/assets/images/sc.jpg "Codebook-courses store")
